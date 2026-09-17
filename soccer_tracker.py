@@ -28,6 +28,6 @@ print(f"POSITION: {position.upper()}")
 print(f"DOMINANT FOOT: {foot.upper()}")
 print("SKILLS")
 print(f"1.DRIBBLING: {dribbling}")
-print(f"2.SHOOTING/FINISHING: {shooting}
+print(f"2.SHOOTING/FINISHING: {shooting}")
 print(f"3.PASSING: {passing}")
 
