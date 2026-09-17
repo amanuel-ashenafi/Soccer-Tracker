@@ -1,3 +1,6 @@
+def clear():
+   print("/n*" 100")
+
 print("Welcome to the Soccer Tracker!")
 name = input("What is your name?")
 age = input("How old are you?")
