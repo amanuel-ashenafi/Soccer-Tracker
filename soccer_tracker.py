@@ -1,9 +1,12 @@
 def clear():
-   print("/n*" 100")
-
+   print("\n" * 100)
+def space():
+   print("\n" * 4)
 print("Welcome to the Soccer Tracker!")
 name = input("What is your name?")
+clear()
 age = input("How old are you?")
+clear()
 print("Select your position:")
 print("1. LW/RW")
 print("2. CAM")
@@ -13,7 +16,9 @@ print("5. LM/RM")
 print("6. CB")
 print("7. LB/RB")
 position = input("Your Position: ")
+clear()
 foot = input("What's your dominant foot?: ")
+()
 print("Now, rate yourself out of 10 on the following skills:")
 dribbling = input("1. Dribbling:")
 shooting = input("2. Shooting/Finishing:")
@@ -22,8 +27,8 @@ stamina = input("4. Stamina:")
 speed = input("5. Speed:")
 defending = input("6. Defending:")
 iq = input("7. Soccer IQ:")
-
-
+clear()
+space()
 print("FINAL RESULTS")
 print(f"NAME: {name.upper()}")
 print(f"AGE: {age}")
@@ -33,4 +38,12 @@ print("SKILLS")
 print(f"1.DRIBBLING: {dribbling}")
 print(f"2.SHOOTING/FINISHING: {shooting}")
 print(f"3.PASSING: {passing}")
+print(f"4.STAMINA: {stamina}")
+print(f"5.SPEED: {stamina}")
+print(f"6.DEFENDING: {defending}")
+print(f"7.Soccer IQ: {iq}")
+
+
+
+
 
